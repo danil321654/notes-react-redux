@@ -1,0 +1,136 @@
+.page-wrapper {
+  overflow-y: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: 0;
+  bottom: 0;
+  position: relative;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .page-wrapper .notes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%; }
+    .page-wrapper .notes .note {
+      background-color: rgba(30, 30, 30, 0.8);
+      border-radius: 20px;
+      margin: 10px;
+      min-height: 180px;
+      min-width: 150px;
+      max-width: 87%;
+      padding: 5px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      -webkit-transition: background-color 1s;
+      transition: background-color 1s;
+      color: white;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+              box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); }
+      .page-wrapper .notes .note .noteText {
+        height: 100%;
+        -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+                flex-grow: 1;
+        word-wrap: break-word;
+        text-align: justify; }
+      .page-wrapper .notes .note .noteButtons {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        min-width: 90px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        padding: 10px; }
+      .page-wrapper .notes .note .post-header {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end; }
+      .page-wrapper .notes .note .post-header {
+        -ms-flex-item-align: end;
+            align-self: flex-end;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start; }
+      .page-wrapper .notes .note .noteButton {
+        border: none;
+        background: transparent;
+        color: white; }
+  .page-wrapper .notes-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    text-align: center;
+    padding: 0; }
+  .page-wrapper .newNote {
+    position: relative;
+    top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 200px; }
+    .page-wrapper .newNote .newNoteText {
+      border-radius: 10px;
+      padding: 3px;
+      min-height: 50px;
+      max-height: 50px;
+      min-width: 150px;
+      max-width: 150px; }
+
+/*# sourceMappingURL=notes.css.map */

@@ -7,10 +7,11 @@ import {
   faInfo,
   faChartBar,
   faTasks,
-  faUser
+  faUser,
+  faAddressBook
 } from "@fortawesome/free-solid-svg-icons";
 
-fontawesome.library.add(faInfo, faChartBar, faTasks, faUser);
+fontawesome.library.add(faInfo, faChartBar, faTasks, faUser, faAddressBook);
 
 function SideBarTab({el}) {
   console.log(el);

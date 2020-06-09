@@ -1,18 +1,27 @@
 export const sideBarContents = [
   {
+    label: "Profile",
+    icon: "user",
+    link: "profile"
+  },
+  {
     label: "Notes",
-    icon: "tasks"
+    icon: "tasks",
+    link: "notes"
   },
   {
     label: "Friends",
-    icon: "user"
+    icon: "address-book",
+    link: "friends"
   },
   {
     label: "Stats",
-    icon: "chart-bar"
+    icon: "chart-bar",
+    link: "stats"
   },
   {
     label: "Info",
-    icon: "info"
+    icon: "info",
+    link: "info"
   }
 ];

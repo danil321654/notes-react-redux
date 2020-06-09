@@ -1,0 +1,98 @@
+.page-wrapper {
+  overflow-y: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  bottom: 0;
+  position: relative;
+  height: 100%;
+  align-items: center;
+
+  .notes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+
+    .note {
+      background-color: rgba(30,30,30,0.8);
+      border-radius: 20px;
+      margin: 10px;
+      min-height: 180px;
+      min-width: 150px;
+      max-width: 87%;
+      padding: 5px;
+      box-sizing: border-box;
+      transition: background-color 1s;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 5px 5px  10px rgba(0,0,0,0.5);
+
+      .noteText {
+        height: 100%;
+        flex-grow: 1;
+        word-wrap: break-word;
+        text-align: justify;
+      }
+
+      .noteButtons {
+        box-sizing: border-box;
+        min-width: 90px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+      }
+
+      .post-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+      }
+
+      .post-header {
+        align-self: flex-end;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+      }
+
+      .noteButton {
+        border: none;
+        background: transparent;
+        color: white;
+      }
+    }
+  }
+
+  .notes-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    text-align: center;
+    padding: 0;
+  }
+
+  .newNote {
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+
+    .newNoteText {
+      border-radius: 10px;
+      padding: 3px;
+      min-height: 50px;
+      max-height: 50px;
+      min-width: 150px;
+      max-width: 150px;
+    }
+  }
+}

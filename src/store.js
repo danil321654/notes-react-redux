@@ -1,3 +1,3 @@
 import {createStore} from "redux";
-import {sidebarReducer} from './reducers/sidebarReducer.js';
-export const store = createStore(sidebarReducer);
+import {reducer} from './reducer.js';
+export const store = createStore(reducer);
